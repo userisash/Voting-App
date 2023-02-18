@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(to bottom, #4a90e2, #2966b8);
+}
+
+.login {
+    background-color: #f1f1f1;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  button[type ="submit"]{
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+  }
+  p{
+    color: #fff;
+  }
+
+  .cards{
+    display: flex;
+    gap: 5px;
+  }
+
+  .cards > div{
+    border: 3px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width: 200px;
+    gap:10px;
+  }
+
+  .cards > div > img{
+    width: 160px;
+  }
