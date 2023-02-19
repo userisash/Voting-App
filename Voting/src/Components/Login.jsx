@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { logInUser } from './data';
-import Voting from './VotingPage';
+import Voting from './cards';
 
 function Login(props) {
   const [email, setEmail] = useState('');

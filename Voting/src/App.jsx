@@ -4,7 +4,7 @@ import './App.css'
 import './login.css'
 import Register from './Components/Register'
 import Login from './Components/Login'
-import Voting from './Components/VotingPage'
+import CardList from './Components/cards.jsx'
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -15,7 +15,7 @@ function App() {
   
   return (
     <div className="App">
-      {loggedIn ? <Voting/> : <Login onSuccessfulLogin={handleSuccessfulLogin}/>}
+      {loggedIn ? <CardList/> : <Login onSuccessfulLogin={handleSuccessfulLogin}/>}
     </div>
   )
 }
